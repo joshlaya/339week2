@@ -23,7 +23,7 @@ body{
  }
 
  nav li{
-    margin-left: 60px;
+    margin-left: 6px;
     list-style-type: upper-roman;
     box-sizing: inline-block;
     border: 2px solid red;
