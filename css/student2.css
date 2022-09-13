@@ -12,7 +12,17 @@ body{
  ul li{
     margin-left: 25px;
     list-style-type: upper-roman;
+    box-sizing: inline-block;
+    border: 2px;
+    background-color: aqua;
+    border-radius: 24px;
+    width: 24%;
+    padding: 11px;
+    display: inline-block;
  }
+
+
+
 
  img{
     width: 24%;
@@ -22,3 +32,10 @@ body{
     border-width: 4px;
     box-sizing: border-box;
  }
+
+ p{
+   color: green;
+   background-color: lightgray;
+   text-align: center;
+   text-transform: capitalize;
+   }
