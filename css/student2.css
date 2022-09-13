@@ -1,0 +1,24 @@
+body{
+    margin:5px;
+    padding:5px;
+    line-height:1.15;
+ }
+  
+ h1,h2, h3{
+    font-weight: bold;
+    margin-top:15px;
+  
+ }
+ ul li{
+    margin-left: 25px;
+    list-style-type: upper-roman;
+ }
+
+ img{
+    width: 24%;
+    padding: 11px;
+    border-style: double;
+    border-color: red;
+    border-width: 4px;
+    box-sizing: border-box;
+ }
