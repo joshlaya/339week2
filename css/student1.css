@@ -12,6 +12,34 @@ body{
  ul li{
     margin-left: 25px;
     list-style-type: upper-roman;
+    box-sizing: inline-block;
+    border: 2px solid black;
+    background-color: aqua;
+    border-radius: 25px;
+    padding: 15px;
+    margin: 20px;
+    width: 20%;
+    display: inline-block;
+ }
+
+ nav li{
+    margin-left: 60px;
+    list-style-type: upper-roman;
+    box-sizing: inline-block;
+    border: 2px solid red;
+    background-color: green;
+    border-radius: 50px;
+    padding: 10px;
+    margin: 20px;
+    width: 10%;
+    display: inline-block;
+ }
+
+ p{
+    color: green;
+    background-color: lightgray;
+    text-decoration-line: underline;
+    text-shadow: 2px 2px;
  }
 
  img{
