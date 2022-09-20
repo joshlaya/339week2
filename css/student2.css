@@ -50,3 +50,24 @@ body{
    text-align: center;
    text-transform: capitalize;
    }
+
+ .gallery{
+   border-style: solid;
+   border-radius: 10px;
+   border-width: 1px;
+   grid-template-columns: 250px 250px 250px;
+   display: grid;
+   width: 90%;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+ }
+ .gallery img{
+   width: 100%;
+   border-style: solid;
+   border-width: 1px;
+   border-radius: 10px;
+ }
+ .gallery img :last-child{
+   grid-column: 1/3;
+ }
